@@ -79,6 +79,7 @@ export const BOOKS_MOCK = [
     genre: 'fiction',
     publisher: 'Crown Publishing Group',
     year: '2011',
-    imageUrl: 'http://wolox-training.s3.amazonaws.com/uploads/41DNuJfahyL._SX322_BO1_204_203_200_.jpg'
+    imageUrl:
+      'http://wolox-training.s3.amazonaws.com/uploads/41DNuJfahyL._SX322_BO1_204_203_200_.jpg'
   }
 ];
