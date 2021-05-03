@@ -31,7 +31,7 @@ function AppNavigator() {
         name={Routes.BOOKDETAIL}
         component={BookDetail}
         options={{
-          title: 'LIBRARY',
+          title: 'BOOK DETAIL',
           headerTintColor: white,
           headerTitleAlign: 'center',
           headerTitleStyle: {
