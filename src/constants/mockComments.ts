@@ -9,7 +9,8 @@ export const COMMENTS_MOCK = [
   {
     id: 1,
     author: 'Slash',
-    text: 'Let’s definitely get that coffe It was great to see you again earlier.',
+    text:
+      'Let’s definitely get that coffe It was great to see you again earlier.',
     url: null
   },
   {
@@ -27,7 +28,8 @@ export const COMMENTS_MOCK = [
   {
     id: 4,
     author: 'Emmie Thiel',
-    text: 'Let’s definitely get that coffe It was great to see you again earlier.',
+    text:
+      'Let’s definitely get that coffe It was great to see you again earlier.',
     url: null
   }
 ];
