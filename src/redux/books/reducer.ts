@@ -5,11 +5,17 @@ import { ReduxAction } from '@interfaces/redux';
 
 const initialState = {
   // TODO: Complete
+  books: []
 };
 
 const reducer = (state = initialState, action: ReduxAction) => {
   switch (action.type) {
     // TODO: Complete switch with book actios
+    case 'GET_BOOKS':
+      return {
+        ...state,
+        books: action.payload
+      };
     default:
       return state;
   }
