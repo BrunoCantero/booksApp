@@ -1,6 +1,12 @@
 module.exports = {
   extends: ['wolox-react-native'],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'
+      }
+    ],
     complexity: 'off',
     'no-nested-ternary': 'off',
     'no-magic-numbers': 'off',
@@ -17,7 +23,15 @@ module.exports = {
           'import/resolver': {
             node: {
               paths: ['src'],
-              extensions: ['.ios.js', '.android.js', '.js', '.jsx', '.ts', '.tsx', '.json']
+              extensions: [
+                '.ios.js',
+                '.android.js',
+                '.js',
+                '.jsx',
+                '.ts',
+                '.tsx',
+                '.json'
+              ]
             }
           }
         }
